@@ -1,0 +1,43 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "this is a sample app built using react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmello/react-app.git"
+  },
+  "keywords": [
+    "react",
+    "git",
+    "github",
+    "webpack",
+    "babel",
+    "redux"
+  ],
+  "author": "Marcos Mello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmello/react-app/issues"
+  },
+  "homepage": "https://github.com/mrmello/react-app#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "path": "^0.12.7",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "react": "^15.6.1",
+    "react-hot-loader": "^1.3.1"
+  }
+}
